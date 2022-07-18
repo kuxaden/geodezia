@@ -70,12 +70,6 @@ ul, li {
   left: 0;
   z-index: 5;
 }
-.brand-text{
-  color: var(--color1);
-  text-align: center;
-  max-width: max-content;
-  margin: auto;
-}
 .header_brand_logo{
   display: block;
   width: 120px;
