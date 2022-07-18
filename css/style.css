@@ -1,10 +1,10 @@
  :root {
   --color1: #D3D3D3;
-  --color2: #2F4F4F;
+  --color2: #1d3b3b;
   --color3: #00FF7F;
   --color4: #FFFFF0;
   --color5: #0d1d1d;
-  --color6: #20b2aa;
+  --color6: #147c77;
  }
  @font-face {
    font-family: 'Montserrat', sans-serif;
@@ -70,11 +70,16 @@ ul, li {
   left: 0;
   z-index: 5;
 }
+.brand-text{
+  color: var(--color1);
+  text-align: center;
+  max-width: max-content;
+  margin: auto;
+}
 .header_brand_logo{
   display: block;
   width: 120px;
   height: 60px;
-  margin-left: 10px;
 }
 .ukraine_img{
   position: relative;
@@ -177,8 +182,14 @@ ul >.navbar-nav{
     height: 60px;
     align-items: center;
   }
+  .brand-text{
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    margin:10px auto;
+  }
   .ukraine_img img{
-    height: 50px;
+    display: none;
   }
   .flag{
     display: none;
