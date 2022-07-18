@@ -7,7 +7,7 @@
     <title>Головна</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/icons_style.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -83,34 +83,25 @@
             <!-- Галерея -->
             <section class="gallery" id="gallery">
                 <div class="container">
-                    <div class="swiper-container swiper">
-                        <div class="line" style="padding-top: 5px"></div>
-                        <h3 class="text-center text uppercase p-3 fs-3">Виконані проекти</h3>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="swiper-slide-img"><img src="img/slide1.jpg" alt="images"></div>
-                                <p class="swiper-slide-info">Виніс пальового поля</p>
-
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="swiper-slide-img"><img src="img/slide2.jpg" alt="images"></div>
-                                <p class="swiper-slide-info">Нівелювання закладних деталей</p>
-
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="swiper-slide-img"><img src="img/slide3.jpg" alt="images"></div>
-                                <p class="swiper-slide-info">Виконавче знімання колон</p>
-
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="swiper-slide-img"><img src="img/slide4.jpg" alt="images"></div>
-                                <p class="swiper-slide-info">Виконавче знімання підкранових шляхів</p>
-
-                            </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="line"></div>
+                            <h3 class="text-center text uppercase m-0 p-3 fs-3">Галерея</h3>
                         </div>
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="myGallery ">
+                        <a href="img/slide1.jpg" title="Виніс пальового поля">
+                            <img class="img-fluid" src="img/thumbs/slide1.jpg" alt="Виніс пальового поля">
+                        </a>
+                        <a href="img/slide2.jpg" title="Нівелювання закладних деталей">
+                            <img class="img-fluid" src="img/thumbs/slide2.jpg" alt="Нівелювання закладних деталей">
+                        </a>
+                        <a href="img/slide3.jpg" title="Виконавче знімання колон">
+                            <img class="img-fluid" src="img/thumbs/slide3.jpg" alt="Виконавче знімання колон">
+                        </a>
+                        <a href="img/slide4.jpg" title="Виконавче знімання підкранових шляхів">
+                            <img class="img-fluid" src="img/thumbs/slide4.jpg" alt="Виконавче знімання підкранових шляхів">
+                        </a>
                     </div>
                 </div>
             </section>
@@ -441,8 +432,8 @@
         </footer>
     </div>
     <script src="js/time.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/swiper.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/gallery.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
