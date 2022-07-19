@@ -230,6 +230,10 @@ ul >.navbar-nav{
   padding: 5px;
   border-radius: 6px 0 6px 0;
 }
+.footer_contacts_list li a{
+  line-height: 20px;
+}
+
 .footer_social_list li:hover,
 .footer_contacts_list li:hover{
   background-color: var(--color3);
@@ -250,7 +254,6 @@ ul >.navbar-nav{
 /* MAIN */
 .main_slide .container,
 .gallery .container,
-.sklad_geo .container,
 .my_cards .container,
 .contacts .container,
 .documents .container{
@@ -315,18 +318,7 @@ ul >.navbar-nav{
   border-radius: 10px 0 10px 0;
   max-width: 566px;
 }
-/* Склад геодезичних робіт */
-.sklad_geo p{
-  padding: 10px;
-  border: var(--color2) 2px solid;
-  border-radius: 10px 0 10px 0;
-  transition: all 0.8s;
-  background-color: aliceblue;
-}
-.sklad_geo p:hover{
-  background-color: var(--color3);
-  color: var(--color5);
-}
+/* Послуги */
 .card{
   overflow:hidden;
   width: 100%;
@@ -352,7 +344,6 @@ ul >.navbar-nav{
   background-color: var(--color3);
   color: var(--color5);
 }
-
 /* Documents */
 .accordion-item{
   display: block;
