@@ -324,13 +324,11 @@ ul >.navbar-nav{
 .myGallery a {
   display: inline-block;
   overflow: hidden;
-  margin: 10px 10px;
+  margin: 1% 1%;
   box-shadow: 0 0 4px -1px #000;
-}
-.myGallery a{
-  justify-content: center;
+  justify-content: space-between;
   border-radius: 10px 0 10px 0;
-  max-width: 566px;
+  max-width: 47.5%;
 }
 /* Послуги */
 .card{
@@ -350,14 +348,25 @@ ul >.navbar-nav{
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+.btn-block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .btn-itd{
+  font-size: 14px;
+  line-height: 20px;
+  width: 45%;
+  min-height: 30px;
   background-color: var(--color2);
   color: var(--color1);
+  padding: 5px;
 }
 .btn-itd:hover{
   background-color: var(--color3);
   color: var(--color5);
 }
+
 /* Documents */
 .accordion-item{
   display: block;
@@ -426,6 +435,9 @@ ul >.navbar-nav{
   .main_image{
     width: 220vw;
     height: 100vw;
+  }
+  .myGallery a{
+    max-width: 100%;
   }
 }
 @media (max-width: 767.98px) {
